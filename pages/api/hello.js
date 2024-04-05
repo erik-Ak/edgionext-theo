@@ -52,7 +52,7 @@ export default async function handler(req, res) {
     })
 
     const client = new Client({
-      node: 'https://edgeport.free.beeceptor.com',
+      node: 'https://185.141.192.64:9200',
       auth: {
         username: 'admin',
         password: 'Q2tjg.BkAhxNs3YuE.HgWxyK',
